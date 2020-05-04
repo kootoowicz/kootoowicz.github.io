@@ -1,0 +1,60 @@
+/**
+ * Author: Kotowicz 17018747
+ */
+
+.formBorder
+{
+    top:50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%, 0);
+    position: absolute;
+    box-sizing: border-box;
+    border-spacing: 0;
+    border-radius: 4px;
+    box-shadow: 0px 5px 5px #c7c7c7;
+}
+
+.title
+{
+    font-size:24px;
+    text-align: center;
+}
+
+.twoFields
+{
+    margin: 0.25em 1em;
+
+}
+
+.inputField
+{
+    box-sizing: border-box;
+    border-spacing: 0;
+    border-radius: 4px;
+}
+
+#password
+{
+    margin-left: 0.25em
+}
+
+.fullWidthField
+{
+    margin: 0.25em 1.25em;
+    width: 90%;
+}
+
+.submitButton
+{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 1em;
+}
+
+.profilePicUpload
+{
+    margin-left: 1.25em;
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+}

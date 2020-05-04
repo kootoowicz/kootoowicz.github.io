@@ -1,0 +1,185 @@
+body{
+    background-color: #3471eb;
+}
+header{
+    background-color: #ececec;
+    color: #3471eb;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000066;
+    overflow: hidden;
+    display:flex;
+    flex-direction: row;
+}
+
+nav li a {
+    display: block;
+
+    color: #ececec;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+nav ul li {
+    display: inline;
+}
+li a:hover {
+    background-color: #ececec;
+    color: #000066;
+}
+#wrapper{
+    display:flex;
+    flex-direction: row;
+}
+main{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    color: #000066;
+}
+article{
+    background-color: #ececec;
+    color: #000066;
+    margin:20px 20px 20px 0px;
+    padding:20px;
+    box-shadow: 15px 15px 10px #000066;
+}
+.forumMain{
+    background-color: #ececec;
+    color: #000066;
+    margin:20px 20px 20px 0px;
+    padding:20px;
+    box-shadow: 15px 15px 10px #000066;
+}
+.myprofileMain{
+    background-color: #ececec;
+    color: #000066;
+    margin:20px 20px 20px 0px;
+    padding:20px;
+}
+
+tr{
+    background-color: aliceblue;
+    color: #3471eb;
+}
+
+th{
+    background-color: #3471eb;
+    color: #ececec;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid white;
+    width: 100%;
+
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: lightsteelblue;
+    color: #ffffff;
+}
+
+.tutorialsMain{
+    background-color: #ececec;
+    color: #000066;
+    margin: 20px 20px 20px 0px;
+    padding: 20px;
+    box-shadow: 15px 15px 10px #000066;
+}
+.adminMain{
+    background-color: #ececec;
+    color: #000066;
+    margin: 20px 20px 20px 0px;
+    padding: 20px;
+    box-shadow: 15px 15px 10px #000066;
+}
+.bigSection{
+    display:flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 20px;
+}
+.smallSection{
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+}
+.mediumSection{
+    margin:10px;
+    border: dotted;
+    padding:15px;
+    display:flex;
+    flex-direction: column;
+}
+button{
+    border-color: #000066;
+    background-color: #ececec;
+    color: #000066;
+    margin: 10px;
+}
+.autoImage{
+    margin-top: 10px;
+    width:100%;
+    height:auto;
+}
+.rowImage{
+    margin-top: 10px;
+    width:100%;
+    height:auto;
+}
+aside{
+    width:25%;
+    background-color: #ececec;
+    color: #000066;
+    padding:10px;
+    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    box-shadow: 15px 15px 10px #000066;
+}
+
+footer{
+    background-color: #000066;
+    color: #ececec;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+    #wrapper{
+        flex-direction:column;
+    }
+    main{
+        width:100%;
+    }
+    aside{
+        width:100%;
+    }
+    nav ul {
+
+        flex-direction: column;
+    }
+    .bigSection{
+        flex-direction: column;
+    }
+    .smallSection{
+
+        width: 100%;
+    }
+}

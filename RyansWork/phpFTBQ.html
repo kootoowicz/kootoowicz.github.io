@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="ftb.css" rel="stylesheet" type="text/css"/>
+    <title>Fill in the Blanks! PHP Edition</title>
+</head>
+<body>
+<script src="twitter.js"> </script>
+<div id="wrapper">
+    <div id="colour">
+        <div id="main">
+            <h2>Complete the missing words by filling in the blanks!</h2>
+            <p><p>Question 1:Create a variable called "firstName" </p>  <input type="text" class="answer" id="userInput1" size="15" tabindex="1"> <div class="button1" id="checkUserInput1"></div><br><p class="hidden" id="hintInfo1"> A currency symbol is used to define a variable. The british use sterling(£), what do the USA use?</p><br><button id="hint1" tabindex="2" > Show hint</button><button id="answer1" tabindex="3"> Show answer</button>
+            <p><p>Question 2: What is the function to retrieve the length of a string?</p> <br> <br> <input type="text" class="answer" id="userInput2" size="15" tabindex="4"> <div class="button1" id="checkUserInput2"></div><br><p class="hidden" id="hintInfo2"> You are trying to retrieve the <strong>length</strong> of a <strong>STR</strong>ing</p><br><button id="hint2" tabindex="5"> Show hint</button><button id="answer2" tabindex="6"> Show answer</button>
+            <p><p>Question 3: Use the correct function to show the number of items in the following array.</p> <br> $colours = array("Magenta", "Cyan", "Scarlet")<br> echo <input type="text" class="answer" id="userInput3" size="15" tabindex="7"><div class="button1" id="checkUserInput3"></div><br><p class="hidden" id="hintInfo3" > You would need to <strong> count </strong> this... </p><br><button id="hint3" tabindex="8"> Show hint</button><button id="answer3" tabindex="9"> Show answer</button>
+            <p><p>Question 4: Output the second element in the array from question 3</p><input type="text" class="answer" id="userInput4" size="15" tabindex="10"><div class="button1" id="checkUserInput4"></div><br><p class="hidden" id="hintInfo4"> Remember, arrays start at zero</p><br><button id="hint4" tabindex="11"> Show hint</button><button id="answer4" tabindex="12"> Show answer</button>
+            <p><p>Question 5: Output the age of Martha. </p> <br> $age = array("Dylan"=>"14", "Chris"=>"29", "Martha"=>"22"); <br>echo <input type="text" class="answer" id="userInput5" size="15" tabindex="13"><div class="button1" id="checkUserInput5"></div><br><p class="hidden" id="hintInfo5"> This is an associative array, use single quotes and not double.</p><br><button id="hint5" tabindex="14"> Show hint</button><button id="answer5" tabindex="15"> Show answer</button>
+            <p><p>Question 6: What would you use to retrieve the input in a input text field?</p> <br> <input type="text" class="answer" id="userInput6" size="15" tabindex="16"><div class="button1" id="checkUserInput6"></div><p class="hidden" id="hintInfo6"> You want to <strong> get</strong> this user input</p><br><button id="hint6" tabindex="17"> Show hint</button><button id="answer6" tabindex="18"> Show answer</button>
+            <p><p>Question 7: Use the correct operator in this statement to show they are <strong> not equal to each other</strong> <br>$a = 10 <br> $b=5 </p><input type="text" class="answer" id="userInput7" size="15" tabindex="19"><div class="button1" id="checkUserInput7"></div><p class="hidden" id="hintInfo7"> A bit of grammar that expresses anger or excitement followed by an equals sign</p><br> <button id="hint7" tabindex="20"> Show hint</button><button id="answer7" tabindex="21"> Show answer</button>
+            <p><p>Question 8: Fill in the missing blanks to create a for loop that goes from 0 - 99</p><br> for ($i = <input type="text" class="answer" id="userInput8" size="1" tabindex="22"><div class="button1" id="checkUserInput8"></div>; $i <<input type="text" class="answer" id="userInput9" size="1" tabindex="23"><div class="button1" id="checkUserInput9"></div>; <input type="text" class="answer" id="userInput10" size="1" tabindex="24"><div class="button1" id="checkUserInput10"></div>); <p class="hidden" id="hintInfo8"> Remember operator sign rules carefully, they apply here. Also make sure to increase the variable so the loop isn't stuck</p><br><button id="hint8" tabindex="25"> Show hint</button><button id="answer8" tabindex="26"> Show answer</button>
+            <p><p>Question 9: Complete the following If Else statement</p> <br> <input type="text" class="answer" id="userInput11" size="1" tabindex="27"><div class="button1" id="checkUserInput11"></div>( $a==$b)<div class="button1" id="checkUserInput12"></div> { <br> echo"equal";<br> } <input type="text" class="answer" id="userInput14" size="1" tabindex="30"><div class="button1" id="checkUserInput14"></div> { <br> echo"not equal"; <br> }  <p class="hidden" id="hintInfo9">The hint is in the question! Look at the words you'll need carefully.</p><br><button id="hint9" tabindex="31"> Show hint</button><button id="answer9" tabindex="32"> Show answer</button><br>
+            <p><p>Question 10: What are the correct symbols needed for a multi line comment? <br> <input type="text" class="answer" id="userInput15" size="15" tabindex="33"><div class="button1" id="checkUserInput15"></div> The code here is really <Br> quite simple, just look at it <br> very carefully<input type="text" class="answer" id="userInput16" size="15" tabindex="34"><div class="button1" id="checkUserInput16"></div><p class="hidden" id="hintInfo10">To open it, you need "/*", to finish it, do the reverse!  </p><br><button id="hint10" tabindex="35"> Show hint</button><button id="answer10" tabindex="36"> Show answer</button>
+            <br> <button class="button" onclick="submit()" tabindex="37">Submit</button>
+            <p id="info"></p>
+            <a href="indexExercises.html"> Return to Exercises</a>
+            <p id="share"><a id="shareButton" class="twitter-share-button" href="https://twitter.com/share" data-size="large"
+                             data-text="Come and try out this PHP Exercise!" tabindex="38">Tweet</a></p>
+        </div>
+            </div>
+                </div>
+
+
+<script src="jquery.js"></script>
+<script src="phpFTB.js"></script>
+
+</body>
+</html>

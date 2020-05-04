@@ -1,0 +1,23 @@
+{"quizlist":[
+  
+	{
+	"question":"Which of these snippets of code show the best examples of Best coding practice?",
+	"option1":"q1yes.PNG",
+	"option2":"q1No1.PNG",
+	"option3":"q1No2.PNG"
+	},
+	{
+	"question":"Which of these examples of Assignment Operators being used is an incorrect example?",
+	"option1":"q2no.PNG",
+	"option2":"q2yes1.PNG",
+	"option3":"q2yes2.PNG"
+	},
+	{
+	"question":"Which of these images show good variable naming practices?",
+	"option1":"q3yes.PNG",
+	"option2":"q3bad1.PNG",
+	"option3":"q3bad2.PNG"
+	}
+
+]
+}

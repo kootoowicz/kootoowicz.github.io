@@ -1,0 +1,23 @@
+{"quizlist":[
+  
+	{
+	"question":"Which of these snippets of code show the correct example of best coding practice?",
+	"option1":"phpQ1yes.PNG",
+	"option2":"phpQ1no1.PNG",
+	"option3":"phpQ1no2.PNG"
+	},
+	{
+	"question":"Which of these examples is the safest and secure PHP code?",
+	"option1":"phpQ2yes.PNG",
+	"option2":"phpQ2no1.PNG",
+	"option3":"phpQ2no2.PNG"
+	},
+	{
+	"question":"Which of these images show code commenting practices?",
+	"option1":"phpQ3yes.PNG",
+	"option2":"phpQ3no1.PNG",
+	"option3":"phpQ3no2.PNG"
+	}
+
+]
+}
